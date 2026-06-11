@@ -2,6 +2,7 @@
 
 @section('title', 'Profile')
 
+
 @section('content')
     <div class="container py-5">
         <div class="row justify-content-center">
@@ -19,7 +20,7 @@
                                     <li class="list-group-item"><strong>Username:</strong> {{ $user['user_name'] }}</li>
                                     <li class="list-group-item"><strong>Email:</strong> {{ $user['email'] }}</li>
                                     <li class="list-group-item"><strong>Prodi:</strong> {{ $user['prodi_name'] }}</li>
-                                    <li class="list-group-item"><strong>Fakultas:</strong> {{ $user['fakultas'] }}</li>
+                                    <li class="list-group-item"><strong>Fakultass:</strong> {{ $user['fakultas'] }}</li>
                                     <li class="list-group-item"><strong>Angkatan:</strong> {{ $user['angkatan'] }}</li>
                                     <li class="list-group-item"><strong>Status:</strong> {{ $user['status'] }}</li>
                                 </ul>
